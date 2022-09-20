@@ -1,0 +1,14 @@
+Suiver les étapes pour importer la base de données de note site :
+
+Avant de commencer, sachez que nous avons utilisé le logiciel WAMP (Wampserver64 Version 3.2.3.3 64 bits) pour créer la base de données.
+Nous avons mis les paramètres par défault lors de l'installation.
+
+Etape 1 - Ouvrir phpmyadmin sur le serveur "MySQL" :
+
+Attention la version que nous avons utilisé est la suivante (il faut que ça soit compatible, mais normalement ça devrait aller) :
+-- phpMyAdmin SQL Dump version 5.0.2
+-- Version du serveur :  5.7.31
+-- Version de PHP : 7.3.21
+
+Etape 2 - Il suffit d'importer le fichier "cinema.sql" dans phpmyadmin. 
+Et voila le tour est joué, bonne navigation !

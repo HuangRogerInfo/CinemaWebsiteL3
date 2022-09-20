@@ -1,0 +1,370 @@
+/**** Général ****/
+.all{
+	padding-top: 90px;
+}
+
+a:link {
+	text-decoration:none;
+	color:black;
+}
+
+a:hover {
+	color:blue;
+}
+
+a:visited {
+	color:black;
+}
+
+a:visited:hover {
+	color:blue;
+}
+
+.container{
+	padding-bottom: 40px;
+}
+
+.border-bottom, #categories {
+	font-family: Dinot,sans-serif;
+	font-weight: bold;
+	line-height: 1.2;
+	font-size: 45px;
+}
+
+/**** Fiche films et individus ****/
+
+.filmTitre, .individuTitre {
+	font-size: 35px;
+}
+
+.afficheFilm, .photoIndividu {
+	max-width: 310px;
+	max-height: 420px;
+}
+
+/**** Categories ****/
+
+.boxCategories {
+	box-shadow: 0 8px 6px -6px black;
+	background-color: #2E4053;	
+}
+
+.lienCategories {
+	color: white !important;
+}
+
+.lienCategories:hover {
+	color: blue !important;
+}
+
+/**** Les recherches ****/
+
+.caseRecherche {
+	box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+/**** Formulaire connexion ****/
+
+.body_formulaire {
+	background-image:url(img/formulaire/central_cinema.jpg);
+	background-size: 100%;
+}
+
+.alert-danger, .alert-success{
+	font-weight: bold;
+}
+
+#formulaire{
+	width: 500px;
+	height: 600px;
+	margin-top: 13vh;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 160px;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-shadow: 10px 10px 2px 1px rgba(0, 0, 0, 0.2);
+	background-color: #292b2c;
+	color:white;
+}
+
+/**** Barre de navigation ****/
+
+.ui-autocomplete { /* Recherche Autocompletion décalé un peu vers le bas */
+	z-index:2000 !important;
+	position:fixed !important;
+}
+
+#Compte{
+	color: white;
+	padding-left: 0;
+}
+
+#Compte:hover{
+	color: blue;
+}
+
+/**** Affiches ****/
+.affiche{
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+  
+.overlay{
+    position: absolute;
+    bottom: 0;
+    background: #18181abb;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color:white;
+}
+
+.titreAffiche{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 4px;
+    line-height: 1.35em;
+    letter-spacing: 1px;
+}
+
+.soustitreAffiche{
+    font-size: 13px;
+    max-height: 0;
+    opacity: 0;
+}
+
+.affiche:hover .soustitreAffiche{
+    opacity: 1;
+    max-height: 100px;
+    margin-top: 5px;
+    transition: opacity 1s ease-out, max-height 0.9s ease-out;
+}
+
+.affiche:hover img{
+    transform: scale(0.99);
+}
+
+.affiche:hover .overlay{
+    transform: scale(0.99);
+}
+
+/***** Articles *****/
+
+.card{
+  box-shadow:rgba(0, 0, 0, 0.5) 0px 3px 3px;
+}
+
+.date_article {
+	background-color: #393e46;
+	color: white; 
+	padding: 4px 8px; 
+	margin-bottom: 8px; 
+	font-size: 12px; 
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+/**** Carousel ****/
+.owl-carousel{
+	max-width: 1280px;
+	max-height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.slide-content img{
+	position: relative;
+}
+
+.slide-content p{
+    padding: 10px;
+    z-index: 1;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom : 0;
+    color: white;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.slide-content .carouselTitre{
+    color: whitesmoke; 
+	font-family: 'Helvetica Neue',sans-serif; 
+	font-size: 46px; 
+	font-weight: 100; 
+	letter-spacing: 1px; 
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.slide-content .legende{
+    color: white; 
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 20px; font-weight: 300; 
+	line-height: 32px; 
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+/**** Fleches carousel ****/
+.owl-nav button{
+    border: none;
+    outline: none;
+}
+
+.owl-prev, .owl-next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff !important;
+    font-size: 65px !important;
+    font-weight: bolder !important;
+    background:none !important;
+}
+
+.owl-prev{
+    left: 1%;
+}
+
+.owl-next{
+    right: 1%;
+}
+
+/**** Articles ****/
+
+.dateArticle {
+	font-family: 'Georgia', serif;
+	font-style: italic;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.titreArticle {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 28px;
+	font-weight: 100;
+}
+
+/**** Responsive pour écrans différents ****/
+
+@media screen and (max-width: 992px){
+    .slide-content .carouselTitre{
+        font-size : 30px;
+    }
+
+    .slide-content .legende{
+        font-size : 20px;
+    }
+
+	.titreAffiche {
+		font-size: 15px !important;
+	}
+
+	#titreFilm{
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	#recommandation {
+		padding-top: 20px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.navbar form {
+		padding-top: 0px;
+	}
+
+	.navbar form button {
+		display: none;
+	}
+
+    #critique .card-img-right, #critique .card-img-left {
+		display: none;
+    }
+
+    .slide-content .carouselTitre{
+        font-size : 15px;
+    }
+    .slide-content .legende{
+        font-size : 10px;
+    }
+
+	#actu_secondaire {
+		display: none;
+	}
+
+	.titreAffiche {
+		font-size: 10px !important;
+	}
+}
+
+/**** Les étoiles (notes) ****/
+
+.rating {
+	display: inline-block;
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	font-size: 30px;
+}
+
+.rating label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	cursor: pointer;
+}
+
+.rating label:last-child {
+	position: static;
+}
+
+.rating label:nth-child(1) {
+	z-index: 5;
+}
+
+.rating label:nth-child(2) {
+	z-index: 4;
+}
+
+.rating label:nth-child(3) {
+	z-index: 3;
+}
+
+.rating label:nth-child(4) {
+	z-index: 2;
+}
+
+.rating label:nth-child(5) {
+	z-index: 1;
+}
+
+.rating label input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+
+.rating label .icon {
+	float: left;
+	color: transparent;
+}
+
+.rating label:last-child .icon {
+	color: #000;
+}
+
+.rating:not(:hover) label input:checked ~ .icon,
+.rating:hover label:hover input ~ .icon {
+	color: gold;
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+	color: #000;
+	text-shadow: 0 0 5px #09f;
+}
